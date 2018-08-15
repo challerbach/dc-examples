@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "https://raw.githubusercontent.com/challerbach/dc-examples/master/content-types/containers/imageblock-slot.json",
+    "title": "Image Block - Slot",
+    "description": "",
+    "allOf": [
+    {
+        "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }],
+    "type": "object",
+    {
+        "properties":
+        {
+            "contentType":
+            {
+                "title": "contentType",
+                "enum": [
+                    "https://raw.githubusercontent.com/techiedarren/dc-examples/master/content-types/blocks/image-block.json"
+                ]
+            }
+        }
+    }
+}
