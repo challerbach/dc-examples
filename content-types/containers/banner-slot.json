@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "https://raw.githubusercontent.com/challerbach/dc-examples/master/content-types/containers/imageblock-slot.json",
-    "title": "Image Block - Slot",
+    "id": "https://raw.githubusercontent.com/challerbach/dc-examples/master/content-types/containers/banner-slot.json",
+    "title": "Banner Block - Slot",
     "description": "",
     "allOf": [
     {
