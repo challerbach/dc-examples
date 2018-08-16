@@ -8,7 +8,13 @@
         "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }],
     "type": "object",
-
+    
+"contentSlots": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          { "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link" },
+          {
         "properties":
         {
             "contentType":
@@ -19,4 +25,8 @@
                 ]
             }
         }
-    }
+          }
+                ]
+      }
+}
+}
