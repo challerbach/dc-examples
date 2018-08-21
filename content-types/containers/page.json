@@ -39,7 +39,7 @@
           }
         ]
       },
-      "maxItems": 1,
+      "maxItems": 10,
       "title": "Page Content",
       "description": "add any content block into the page content"
     }
