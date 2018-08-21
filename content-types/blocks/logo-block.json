@@ -1,0 +1,21 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "id":"https://raw.githubusercontent.com/challerbach/dc-examples/master/content-types/blocks/logo-block.json",
+
+  "title":"Logo",
+  "description":"A page block element that can display a logo",
+  "allOf":[
+    {
+      "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+
+  "type":"object",
+  "properties":{
+
+    "Logo": { "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link" }
+
+    }
+
+  }
+  
